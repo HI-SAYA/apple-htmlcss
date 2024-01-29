@@ -1,0 +1,95 @@
+.main-container {
+    width: 800px;
+}
+
+.left-box {
+    width: 75%;
+    height: 200px;
+    background: #eee;
+    float: left;
+}
+
+.right-box {
+    width: 25%;
+    height: 200px;
+    /* 내가 쓴 거 
+    margin-left: 560px;
+    margin-top: -100px; */
+    background: yellow;
+    float: left;
+}
+
+.big-img {
+    width: 180px;
+}
+
+
+h3 {
+    letter-spacing: -0.7px;
+}
+
+.content {
+    letter-spacing: 0.5px;
+    line-height: 20px;
+}
+
+p {
+    font-size: 13px;
+    color: rgb(136, 136, 136);
+}
+
+.profile-img {
+    display: inline-block;
+    vertical-align: top;
+    width: 38px;
+    border-radius: 50%;
+}
+
+.profile-name {
+    display: inline-block;
+    /* vertical-align: top; */
+    font-size: 13px;
+    margin-top: -55px;
+    margin-left: 5px;
+    color: black;
+    font-weight: 500;
+}
+
+.profile-dsc {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 11px;
+    margin-top: 23px;
+    margin-left: -43px;
+    color: rgb(136, 136, 136);
+}
+
+
+/* ' ' 스페이스 바 : ~안에있는 이라는 뜻의 selector 문법 */
+.navbar li{ 
+    display: inline-block;
+    width: 60px;
+    text-align: center;
+    background-color: #eee;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+/* selector 문법 > ~안에 있는 직계 자식 */
+/* .navbar>li */
+
+
+.navbar a {
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+    /* a 태그의 밑줄 제거 가능 */
+}
+
+
+/* .container div>div>p>span {
+    color : red;
+ }
+ 비추천 : 가독성이 너무 떨어짐
+ 그냥 근처에 클래스명 하나 명시하고 사용하는 게 나음 */

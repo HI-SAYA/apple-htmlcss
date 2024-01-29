@@ -1,0 +1,82 @@
+body {
+    margin : 0px
+}
+
+div {
+    box-sizing: border-box;
+}
+/* 써놓고 시작하면 매우 편리함 */
+
+
+
+.main-background {
+    width: 100%;
+    height: 500px;
+    background-image: url(../img/shoes.jpg), url();
+    /* 배경 겹치고 싶으면 여러개를 연달아 쓰면 된다. */
+    background-size: cover;
+    /* cover나 contain 많이 사용한다. */
+    background-repeat: no-repeat;
+    /* 여러개 안나오게 */
+    background-position: center;
+    /* background-attachment: fixed; */
+    /* filter: brightness(70%); */
+    padding: 1px;
+}
+
+
+.main-title {
+    color: white;
+    font-size: 40px;
+    margin-top: 150px;
+}
+
+
+.sub-title  {
+    color: white;
+    font-size: 14px;
+    margin-top: -50px;
+}
+
+
+.main-button {
+    padding: 15px;
+    /* margin-right: auto; */
+    font-size: 20px;
+    background: white;
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    /* 내 원래 위치를 기준으로 이동하세요~ 
+    공중에 뜬다.
+    position: static 좌표이동x 
+    position: fixed 화면고정 - 스크롤해도 고정되는 걸 원하면 fixed 사용하면 된다.
+    position: absolute 내 부모 태그 중에 position: realtive를 가진 부모 기준 */
+    top: 10px;
+    left: 20px;
+    z-index: 5;
+    margin: auto;
+    display: block;
+}
+
+
+.explain-box {
+    width: 80%;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #eee;
+    position: relative;
+    top: -220px;
+    box-sizing: border-box;
+    /* 이러면 width가 padding, border 포함 */
+}
+
+
+input[type=text] {
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+}
