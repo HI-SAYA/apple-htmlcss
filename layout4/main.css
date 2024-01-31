@@ -4,7 +4,8 @@
     padding: 30px;
 }
 
-td, th {
+td,
+th {
     /* border: solid 1px black; */
 }
 
@@ -20,7 +21,8 @@ table {
     border-radius: 10px;
 }
 
-.cart-table td, .cart-table th {
+.cart-table td,
+.cart-table th {
     padding: 15px;
     border: 1px solid #c2d3de;
 }
@@ -67,3 +69,39 @@ table {
 .custom-link:visited {
     color: beige;
 }
+
+
+
+.flex-container {
+    height: 500px;
+    display: flex;
+    /* 정렬 */
+    justify-content: center;
+    /* 가로 세로 배치 */
+    flex-direction: row;
+    /* width 크면 밑으로 보내고 싶을 때 */
+    /* flex-wrap: wrap; */
+    /* flex 이용시 상하정렬 */
+    align-items: flex-start;
+}
+
+.flex-item {
+    width: 200px;
+    height: 100px;
+    background-color: grey;
+    margin: 5px;
+}
+
+
+.nav-container {
+    display: flex;
+    height: 40px;
+    align-items: center;
+}
+
+.nav-item {
+    padding: 5px;
+    margin-right: 10px;
+    padding: 10px;
+}
+
