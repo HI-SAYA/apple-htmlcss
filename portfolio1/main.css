@@ -10,8 +10,170 @@ div {
 
 h1 {
     font-size: 30px;
+    font-weight: 500;
 }
 
 h4 {
     font-size: 22px;
+}
+
+h5 {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+.main-background {
+    background-image: linear-gradient(to bottom, #499add, #4543c0);
+    height: 550px;
+    padding: 20px;
+    color: white;
+}
+
+.main-container {
+    max-width: 1300px;
+    margin: auto;
+}
+
+.main-text {
+    float: left;
+    margin-top: 50px;
+}
+
+.main-iphone {
+    width: 400px;
+    float: right;
+    margin-top: 95px;
+}
+
+
+.btn {
+    padding: 13px 17px;
+    font-size: 16px;
+    font-family: 'nanumsquare';
+    font-weight: 400;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.btn-black {
+    background-color: #494949;
+    color: white;
+}
+
+.btn-black:hover {
+    /* 마우스 올렸을 시 스타일 */
+}
+
+.btn-black:active {
+    /* 커서가 찍혔을 시 스타일 */
+    background: linear-gradient(to bottom, #7a7a7a, #222222);
+}
+
+
+
+@media screen and (max-width : 992px) {
+
+    .main-iphone {
+        width: 260px; 
+        display: block;   
+        float: none;
+        margin: auto;
+        margin-top: 32px;
+        bottom: 0px;
+    }
+
+    .main-text {
+        float: none;
+        /* margin-top: 50px; */
+        text-align: center;
+    }
+}
+
+
+.service {
+    background-color: #4e61c0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 60px 30px 50px 30px;
+}
+
+.service-items {
+    display: flex;
+}
+
+.service-items div {
+    width: 25%;
+}
+
+.main-container p {
+    float: none;
+    margin-bottom: -4px;
+    font-size: 14px;
+}
+
+.main-container h4 {
+    font-weight: 500;
+}
+
+.service-icon {
+    background-color: white;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    color: #4e61c0;
+    box-sizing: border-box;
+    padding: 22px;
+}
+
+.service-items p {
+    margin-top: -8%;
+}
+
+.service-items h5 {
+    margin-top: 2%;
+}
+
+@media screen and (max-width: 992px) {
+    .service-items {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .service-items div {
+        width: 100%;
+    }
+
+    .service-items i {
+        margin-top: 50px
+    }
+
+    .service-items h5 {
+        float: ;
+    }
+}
+
+
+
+
+.sub-container {
+    width: 480px;
+    margin: auto;
+}
+
+.sub-textbox {
+    float: none;
+    margin: 70px 0 85px 0;
+}
+
+.sub-textbox p {
+    margin-top: -20px;
+    text-align: center;
+}
+
+.sub-textbox button {
+    margin: 0 0 0 35%;
 }
