@@ -1,0 +1,15 @@
+
+.pseudo::first-letter {
+    color: red;;
+    font-size: 30px;
+}
+
+.pseudo::after {
+    content: '안녕하세요';
+    color: blue;
+}
+
+.pseudo::before {
+    content: '안녕못해';
+    color: blueviolet;
+}
